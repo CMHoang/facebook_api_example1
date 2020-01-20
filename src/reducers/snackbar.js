@@ -5,7 +5,7 @@ const defaultState = {
 
 const snackbar = (state=defaultState, action) => {
     switch (action.type) {
-        case 'SHOW_SNACKBAR':
+        case 'OPEN_SNACKBAR':
             return {
                 ...state,
                 open: true,

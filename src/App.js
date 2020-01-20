@@ -10,7 +10,7 @@ import Button from "@material-ui/core/Button";
 import FB from 'fb';
 import TextField from "@material-ui/core/TextField";
 import {InputLabel} from "@material-ui/core";
-import {createMuiTheme, MuiThemeProvider, ThemeProvider} from "@material-ui/core/styles";
+import {createMuiTheme} from "@material-ui/core/styles";
 import Snackbar from '@material-ui/core/Snackbar';
 import {green} from "@material-ui/core/colors";
 import { connect } from 'react-redux';

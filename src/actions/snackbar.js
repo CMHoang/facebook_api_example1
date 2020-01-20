@@ -1,7 +1,7 @@
 export function openSnackbar(message) {
     return dispatch => {
         dispatch({
-            type: "SHOW_SNACKBAR",
+            type: "OPEN_SNACKBAR",
             payload: {
                 message
             }
